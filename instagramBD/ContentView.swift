@@ -22,7 +22,6 @@ struct ContentView: View {
                             Image("cam").resizable().frame(width: 30, height: 30)
                         })
                             .foregroundColor(Color("darkAndWhite"))
-                            
                             ,trailing:
                             
                             HStack{
@@ -77,7 +76,7 @@ struct ContentView: View {
         }
       }
     
-    }
+   }
 }
 
 struct ContentView_Previews: PreviewProvider {
@@ -89,7 +88,6 @@ struct ContentView_Previews: PreviewProvider {
 
 struct Home : View {
     var body: some View{
-        
         Text("Home")
     }
 }
